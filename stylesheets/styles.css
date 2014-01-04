@@ -7,6 +7,10 @@ body {
   font-weight:300;
 }
 
+img {
+	border-radius: 20px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
@@ -180,7 +184,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:10px;
 }
 
 @media print, screen and (max-width: 960px) {
