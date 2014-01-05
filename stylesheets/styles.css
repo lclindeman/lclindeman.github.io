@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(http://fonts.googleapis.com/css?family=Handlee);
 
 body {
   padding:50px;
@@ -9,6 +10,8 @@ body {
 
 img {
 	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,7 +28,14 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+	font-family:'Handlee', cursive;
+  font-size:36px;
+}
+
+header h2 {
+	margin:0 0 1px;
+	color:#222;
+	font-size:16px;
 }
 
 h2 {
@@ -47,6 +57,20 @@ a small {
   color:#777;
   margin-top:-0.6em;
   display:block;
+}
+
+
+ul.traits {
+	list-style:none;
+	padding-left:0px;
+	color:#494949;
+	font-size:14px;
+	font-weight:700;
+	margin-bottom:20px;
+}
+
+ul.traits li {
+	margin-bottom: 5px;
 }
 
 .wrapper {
@@ -180,13 +204,6 @@ hr {
   margin:0 0 20px;
 }
 
-footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:10px;
-}
-
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
@@ -194,7 +211,7 @@ footer {
     margin:0;
   }
   
-  header, section, footer {
+  header, section {
     float:none;
     position:static;
     width:auto;
