@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-@import url(http://fonts.googleapis.com/css?family=Handlee);
+@import url(https://fonts.googleapis.com/css?family=Handlee);
 
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#494949;
-  font-weight:400;
+  font-weight:500;
 }
 
 img {
